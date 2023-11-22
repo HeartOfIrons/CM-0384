@@ -4,5 +4,13 @@ OSKERI 5..2..1
 
 [[--
 
-if en == true then
-print("
+-- IN-SCRIPT CONFIGURATION --
+local Config = {
+CreatorName = "Alibical", -- Creator of the game, change to yours
+DeveloperLogger = false, -- Log errors and warnings that you can't normally see
+DebugLogger = false, -- Print random things, like.. really random things
+}
+
+if DebugLogger == true then
+print("939333:" ..CreatorName.. "939332")
+end
